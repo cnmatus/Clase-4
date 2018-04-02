@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.bg-lalala{
+  background: DodgerBlue;
+  transition: all ease .5s
+}
+
+.city {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+body{
+  padding-top: 3.5rem;
+  background:white;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  color: black;
+}
+
+h1{
+font-weight: bold;
+font-size: 200;
+color: black;
+text-align: center;
+letter-spacing: 20px
+
+
+  }
+
+  h2,h3,h4{
+  padding: 5px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 200;
+  font-size: 200;
+  color: DodgerBlue;
+}
+img:hover{
+      filter: none;
+}
+img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+}
+div [class^="col"]{
+  padding-top: 2rem
+}
+nav div[class^="col"]{
+  padding-top: 0;
+}
